@@ -1595,6 +1595,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8511CC70261029A2001EE606 /* lto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lto.h; sourceTree = "<group>"; };
+		8511CCB1261029CF001EE606 /* ExternC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternC.h; sourceTree = "<group>"; };
 		DE000B3621CDB9DB000CEC53 /* libmacho.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmacho.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE000B3A21CDB9FE000CEC53 /* macho_static.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macho_static.xcconfig; sourceTree = "<group>"; };
 		DE000B5E21CDBE77000CEC53 /* libmacho_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmacho_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3571,6 +3573,8 @@
 			isa = PBXGroup;
 			children = (
 				DE0960BB21CC1ABC00C4ADA1 /* Disassembler.h */,
+				8511CC70261029A2001EE606 /* lto.h */,
+				8511CCB1261029CF001EE606 /* ExternC.h */,
 			);
 			path = "llvm-c";
 			sourceTree = "<group>";
